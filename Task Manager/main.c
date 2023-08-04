@@ -30,7 +30,7 @@ int main() {
             printf("Enter deadline: ");
             char* deadline = getInput();
 
-            printf("Enter priority: ");
+            printf("Enter priority (1,2,3,etc...): ");
             char* priority_str = getInput();
             int priority = atoi(priority_str);
             free(priority_str);

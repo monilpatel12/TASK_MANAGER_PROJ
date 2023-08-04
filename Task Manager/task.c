@@ -94,7 +94,7 @@ void sortTasks() {
     printf("This function will sort tasks based on your criteria.\n");
 }
 
-Task* searchTasks(char* name) {
+/*Task* searchTasks(char* name) {
     // Search for a task by name
     for (int i = 0; i < taskCount; i++) {
         if (strcmp(taskList[i].name, name) == 0) {
@@ -102,7 +102,7 @@ Task* searchTasks(char* name) {
         }
     }
     return NULL;
-}
+} */
 
 void saveTasksToFile() {
     // Save all tasks to a file
